@@ -1,0 +1,21 @@
+{
+  "name": "Reply-time",
+  "version": "1.0.0",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/bot.js",
+    "build": "babel src --out-dir dist",
+    "boot": "node dist/bot.js"
+  },
+  "repository": "https://github.com/OldBigBuddha/Reply-time",
+  "author": "OldBigBuddha",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/register": "^7.0.0",
+    "nodemon": "^1.18.6"
+  }
+}
